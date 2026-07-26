@@ -3,7 +3,7 @@
 An AI-powered marketing assistant built for **Chand & Company**, a retail shop with branches in Multan and Faisalabad, Pakistan. Small shop owners lose real time and money creating promotional content by hand. This app lets them describe a product once and instantly get a complete marketing kit — tagline, description, platform-specific social captions, hashtags, and a poster image — plus a product catalog, a dashboard, and full campaign history.
 
 ## 🔗 Live App
-**[Paste your deployed Streamlit URL here after deployment]**
+**[https://chand-company-ai-marketing-suite-mfz9mrwjjtsapxsnqxvggo.streamlit.app/]**
 
 ## ✨ Features
 - **Dashboard** — total products, total campaigns, campaigns-by-category chart, recent activity, and an on-demand AI marketing tip
@@ -68,13 +68,37 @@ A second, simpler Gemini prompt powers the standalone **AI Marketing Tips** feat
 1. Push this repo to GitHub as a **public** repository — `.streamlit/secrets.toml` never gets committed, thanks to `.gitignore`
 2. On [share.streamlit.io](https://share.streamlit.io), connect the repo and set `app.py` as the main file
 3. In the app's **Settings → Secrets**, add:
-   ```toml
+   ```toml 
    GEMINI_API_KEY = "your-real-key-here"
    ```
 4. Copy the live URL into the **Live App** section above
 
 ## 📸 Screenshots
-_Add at least 3 screenshots here after deploying — e.g. Dashboard, Generate Kit, Campaign History._
 
+![Dashboard](screenshots/dashboard.png)
+
+
+
+
+
+![Products](screenshots/products.png)
+
+
+
+
+
+![Generate Kit](screenshots/generate-kit.png)
+
+
+
+
+
+![Campaign History](screenshots/campaign-history.png)
+
+
+
+
+
+![Poster Generation](screenshots/poster.png)
 ## 👤 Author
 Masooma — CS&IT student, The Women University Multan
